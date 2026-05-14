@@ -199,7 +199,7 @@ Simply mention any of the following to Claude Code:
 ### 🛠️ Troubleshooting / 常见问题
 
 **Q: 推送后报错 `gh: Recv failure: Connection reset by peer`**  
-A: 你的网络环境可能需要代理。在命令前加上代理环境变量：`export HTTP_PROXY=http://127.0.0.1:8118 && export HTTPS_PROXY=http://127.0.0.1:8118 && gh ...`
+A: 你的网络环境可能需要代理。在命令前加上代理环境变量：`export HTTP_PROXY=http://用户的代理端口`
 
 **Q: 附图生成时报错 `dot: command not found`**  
 A: 未安装 Graphviz。macOS: `brew install graphviz`；Windows: `winget install graphviz`；或从官网下载安装。
