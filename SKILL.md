@@ -1,5 +1,8 @@
 ---
 name: patent-drafting
+version: V1.0
+author: 许圣义
+updated: 2026-05-14
 description: >
   从 PRD 中识别专利创新点并撰写技术交底书，支持交底书完成后自动将 Mermaid 流程图转换为专利合规附图。适用于产品经理在 PRD 完成后挖掘可专利点、
   将粗粒度技术思路转化为专利级交底书、对交底书进行三性自审查、以及生成专利附图的场景。
